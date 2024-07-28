@@ -8,6 +8,8 @@ import (
 
 func main() {
 	e := echo.New()
+	e.Static("/", "client/dist")
+
 	routes.RegisterRoutes(e)
 	e.Logger.Fatal(e.Start(":1323"))
 }

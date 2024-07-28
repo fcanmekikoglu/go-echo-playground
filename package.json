@@ -1,0 +1,14 @@
+{
+  "name": "go-echo-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "pnpm -F client dev",
+    "client:build": "pnpm -F client build",
+    "server:start": "go run server.go"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
