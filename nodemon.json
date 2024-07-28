@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "client/src",
+        "*.go"
+    ],
+    "ext": "js,go,ts,json",
+    "exec": "pnpm run client:build && go run server.go",
+    "ignore": [
+        "node_modules"
+    ],
+    "restartable": "rs",
+    "verbose": true
+}

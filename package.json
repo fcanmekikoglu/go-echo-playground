@@ -6,9 +6,13 @@
   "scripts": {
     "client:dev": "pnpm -F client dev",
     "client:build": "pnpm -F client build",
-    "server:start": "go run server.go"
+    "server:start": "go run server.go",
+    "dev": "nodemon -r ./nodemon.json"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
